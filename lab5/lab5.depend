@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1424291050 source:c:\users\ace trading company\desktop\c++\lab5\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cmath>
+
