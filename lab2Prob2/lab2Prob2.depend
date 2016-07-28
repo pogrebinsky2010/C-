@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1421633092 source:c:\users\taliman\desktop\c++\lab2prob2\main.cpp
-	<iostream>
-	<cmath>
-	<cstdlib>
-	<string>
-	<ctime>
-
