@@ -1,1 +1,6 @@
 Image processor is a compilation of about 5 of my programs each adding a new feature, this includes: Demand driven execution, picture manipulation with easily customizable changes, a logger for every filter, and a working make file for easy execution.
+
+To compile this program simply use "make" to create the output file "proj3F.o"
+Then to execute use: "./proj3F 3F_input.pnm > output.pnm"
+
+Note: 3F_input.pnm is a picture being passed into the program whereas > is saying to output the file, if > is not specified the program will still run.
