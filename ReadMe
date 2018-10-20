@@ -1,11 +1,19 @@
-Image processor is a compilation of about 5 of my programs each adding a new feature, this includes: Demand driven execution, picture manipulation with easily customizable changes, a logger for every filter, and a working make file for easy execution.
+Image processor is a compilation of about 5 filters each adding a new feature being able to edit image input files with the
+desired filters. 
+this includes: Demand driven execution, picture manipulation with easily customizable changes, a logger for every filter, 
+and a working make file for easy execution.
 
-To compile this program simply use "make" to create the output file "proj3F.o"
-Then to execute use: "./proj3F 3F_input.pnm > output.pnm"
+To compile this program simply use the makefile provided.
 
-Note: 3F_input.pnm is a picture being passed into the program whereas > is saying to output the file, if > is not specified the program will still run.
+Then to execute input an image by passing it in as the first argument and the second 
+argument should be the desired name of the output image for 
+Example: "./proj3F "Your image file" > "output image name"
 
-More notes: this program runs great on Mac operating systems, last ran November 15th 2017 on a mac with highsierra and it ran well.
+More notes: this program runs great on Mac operating systems, last ran November 15th 2017 on a mac with highsierra.
 
-Also ran on Ubuntu 14, the only changes I had to apply was changing angle brackets to quotes in the includes, however this change wasnt neccesary after re-downloading the program. A small change I made may have caused this, either way if you get an error that a inclusion is not found simply apply this change.
-If an error is recieved that "class is not identified" then you may need to change the .C files and .c file to .cpp to let the compiler know it is using C++, however if ran on a proper system no changes are neccesary.
+Also ran on Ubuntu 14, the only changes I had to apply was changing angle brackets to quotes in the includes,
+however this change wasnt neccesary after re-downloading the program. 
+If an error occurs which states a inclusion is not found simply apply this change.
+If an error is recieved that "class is not identified" then you may need to change 
+the .C files and .c file to .cpp to let the compiler know it is using C++, however 
+if ran on a proper system no changes are neccesary.
